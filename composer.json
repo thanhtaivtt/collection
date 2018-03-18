@@ -1,0 +1,21 @@
+{
+    "description": "Array collection for PHP",
+    "name": "thanhtaivtt/collection",
+    "homepage": "http://toidicode.com",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.6"
+    },
+    "suggest": {
+        "paragonie/random_compat": "Provides better randomness in PHP 5.x"
+    },
+    "require-dev": {
+        "mikey179/vfsStream": "1.1.*",
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload":{
+        "psr-4":{
+            "Thanhtaivtt\\Collection\\":"src/"
+        }
+    }
+}
